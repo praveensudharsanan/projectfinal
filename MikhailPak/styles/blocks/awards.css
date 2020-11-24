@@ -1,0 +1,102 @@
+.awards {
+    color: #000;
+    height: 100vh;
+    background-color: #f8f9fb;
+    margin-bottom: 0;
+}
+
+.container--awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.awards__title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 2.5em;
+}
+
+.awards__list {
+    display: flex;
+    margin-bottom: 8em;
+}
+
+.award__item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #000;
+    margin-right: 50px;
+    text-align: center;
+    padding: 100px 20px 50px;
+    background-color: #fff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+.award__item:last-child {
+    margin-right: 0;
+}
+
+.award__year {
+    margin-bottom: 90px;
+    font-weight: bold;
+    font-size: 1.1em;
+    position: relative;
+}
+
+.award__year::after {
+    background-image: url(../../images/icons/wreath.png);
+    background-size: 100px 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+    content:"";
+    transition: 0.5s;
+}
+
+.award__title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.award__desc {
+    color: gray;
+    line-height: 2;
+}
+
+.award__item:hover {
+    color: #fff;
+    background: #9E0000;
+    border-color: #9E0000;
+    transition: 0.5s;
+}
+
+.award__item:hover .award__desc {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.award__item:hover .award__year::after{
+    background-image: url(../../images/icons/wreath1.png);
+    background-size: 100px 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+    content:"";
+    transition: 0.5s;
+}

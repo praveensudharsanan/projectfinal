@@ -1,0 +1,106 @@
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_list {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-top: 3em;
+}
+
+.team__member {
+    width: calc(33% - 3em);
+    height: 26em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.team__member:hover {
+    filter: grayscale(50%);
+    transition: all .3s ease;
+}
+
+.team__member:hover .member__info {
+    margin-left: 0;
+}
+
+.team__member:hover .member__info .member__name {
+    color: #fff;
+}
+
+.team__member:nth-child(3), .team__member:last-child {
+    margin-right: 0;
+}
+
+.member__info {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    bottom: 27px;
+    width: 80%;
+    min-width: 300px;
+    margin-left: -25px;
+    padding: 15px 20px 15px 50px;
+    transition: all .3s ease;
+    z-index: 1;
+}
+
+.member__info::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: skew(25deg);
+    transform-origin: 50% 100%;
+    z-index: -1;
+}
+
+.member__name {
+    text-transform: uppercase;
+    color:#ff9494;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.member__occ {
+    color: #fff;
+}
+
+
+
+.team__member--one {
+    background: url(../../images/content/31.jpg) center center no-repeat;
+    background-size: cover;
+}
+.team__member--two {
+    background: url(../../images/content/32.jpg) center center no-repeat;
+    background-size: cover;
+}
+.team__member--three {
+    background: url(../../images/content/33.jpg) center center no-repeat;
+    background-size: cover;
+}
+.team__member--four {
+    background: url(../../images/content/34.jpg) center center no-repeat;
+    background-size: cover;
+}
+.team__member--five {
+    background: url(../../images/content/35.jpg) center center no-repeat;
+    background-size: cover;
+}
+.team__member--six {
+    background: url(../../images/content/36.jpg) center center no-repeat;
+    background-size: cover;
+}

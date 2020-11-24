@@ -1,0 +1,28 @@
+.hamburger {
+    display: none;
+}
+
+.menu__input {
+    display: none;
+}
+
+span, span::after, span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #9E0000;
+    border-radius: 10px;
+ 
+}
+
+span::after {
+    content: "";
+    top: 7px;
+}
+
+span::before {
+    content: "";
+    top: -7px;
+}

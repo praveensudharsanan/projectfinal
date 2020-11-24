@@ -1,0 +1,9 @@
+.read__button--link {
+    padding: 15px 40px;
+    border: 3px #fff solid;
+    text-transform: uppercase;
+}
+
+.read__button--link--black {
+    border-color: #000;
+}

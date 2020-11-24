@@ -1,0 +1,10 @@
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito+Sans:ital,wght@0,600;0,700;1,400&display=swap');
+
+
+/* import styles  */
+
+@import url(common.css);
+@import url(topnav.css);
+@import url(page.css);
+@import url(footer.css)

@@ -1,0 +1,18 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    box-shadow: 0px -5px 7px 5px rgba(148,148,148,1);
+}
+
+.header--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header__menu {
+    width: 40%;
+}

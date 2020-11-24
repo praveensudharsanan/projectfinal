@@ -1,0 +1,15 @@
+.hero {
+    height: 100vh;
+    background: url(../../images/content/18.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}

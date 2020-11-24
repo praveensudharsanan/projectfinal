@@ -1,0 +1,33 @@
+.about--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__img {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.about__content {
+    color: #000;
+    flex: 1;
+}
+
+.about__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9E0000;
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+.about__subtitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    color: gray;
+    margin-bottom: 50px;
+}

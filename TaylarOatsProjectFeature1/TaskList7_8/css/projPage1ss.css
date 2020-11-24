@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+    min-height: 150%;
+}
+
+body {
+    background-color: white;
+}
+
+#headPicContainer {
+    height: 650px;
+    max-width: 100%;
+    background-image: url('../images/contactus.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-color: cornflowerblue;*/
+}
+
+#headPicContainer h1 {
+    padding-top:325px;
+    padding-left:40%;
+    margin-right: 0;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 20px ;
+}
+
+main {
+    color: white;
+    margin-top: 50px;
+}
+
+main h3 {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+main p {
+    font-size: 12px;
+    text-align: center;
+}
+
+#squares {
+    height: 625px;
+    max-height: 1000px;
+    width: 100%;
+    padding: 20px 50px;
+    overflow: scroll;
+    justify-items: center;}
+
+.addresssquareil {
+    width: 275px;
+    height: 130px;
+    background-color:teal;
+    box-shadow: 4px 7px 5px 0px grey;
+    border: black;
+
+    margin: 20px;
+    padding: 20px 15px;
+    display: inline-block;
+}
+
+map h2 {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px ;
+}
+
+map iframe {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    box-shadow: 4px 7px 5px 0px grey;
+
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 30px;
+}
