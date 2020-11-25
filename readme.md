@@ -14,7 +14,7 @@
 | Junaid | FAQ, Category styles (Men/Women,types of collections/portfolio), Accordion, website search, size sheet on pages |
 | Mikhail | Welcome page(Features: slideshow, pictures-links with hover), About the brand page(Features: slider) |
 | Praveen | Latest news Page(Blog,Accordion),Customer Review Page(customer  reviews,Form) |
-| Taylar | “Where to Buy” Page (Features: Google Maps/All Locations), Contact Us Page (Features: Comment Submission/email, Links to Social Media Accounts) |
+| Taylar | “Where to Buy” Page (Features: All Locations), Contact Us Page (Features: Comment Submission/email, Links to Social Media Accounts), Getting Involved (Form & document submission) |
 		      
 ## Timeline:
 
