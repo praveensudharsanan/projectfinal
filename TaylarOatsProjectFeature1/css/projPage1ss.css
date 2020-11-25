@@ -18,7 +18,7 @@ body {
 
 #headPicContainer h1 {
     padding-top:325px;
-    padding-left:40%;
+    padding-left:27%;
     margin-right: 0;
     font-weight: bolder;
     font-size: 60px;
@@ -60,7 +60,7 @@ main p {
 .addresssquareil {
     width: 275px;
     height: 130px;
-    background-color:teal;
+    background-color:#990000;
     box-shadow: 4px 7px 5px 0px grey;
     border: black;
 
