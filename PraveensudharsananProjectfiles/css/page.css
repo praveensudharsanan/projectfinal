@@ -401,4 +401,24 @@
   .review-item .review-content {
     width: 75%;
   }
+
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-left: 100px;
+
+  }
+  
+  .next {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-left: 1000px;
+
+  }
 }
