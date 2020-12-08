@@ -176,7 +176,7 @@
               </div>
             </div>
             <div class="review-item">
-              <figure>
+              <figure id="main">
                 <img src="images/test8.png" alt="">
               </figure>
               <div class="review-content">
@@ -200,14 +200,14 @@
         <div class="rightcolumn">
           <div class="card">
             <h3>Submit Review</h3>
-            <form action="#">
+            <form name="myForm" action="#" onsubmit="return validateForm()">
               <div class="form-group">
                 <label for="name"> Name: </label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name" >
               </div>
               <div class="form-group">
                 <label for="email"> Email: </label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" >
               </div>
               <div class="form-group">
                 <label for="occupation"> Occupation: </label>
@@ -217,11 +217,11 @@
                 <label for="review"> Review: </label>
                 <textarea name="review" id="review" cols="30" rows="5"></textarea>
               </div>
-
+  
               <div class="form-group">
                 <button class="btn btn-green" type="submit"> Submit Review</button>
               </div>
-
+              
 
 
             </form>
@@ -245,7 +245,7 @@
           <h2 class="featured-section"> Featured News</h2>
           <div class="featured-news-main">
             <figure>
-              <img src="images/shopping.jpg" alt="">
+              <img src="images/shopping.jpg" id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" alt="">
             </figure>
             <div class="featured-news-item">
               <h2 class="featured-title"> End of sales season? Retailers see washout as consumers stay away from

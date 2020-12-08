@@ -125,13 +125,27 @@ function validateForm() {
 
 }
 
-/* -------------------------------------------------------------------------- */
-/*                                  dropdown                                  */
-/* -------------------------------------------------------------------------- */
 
-function changeColor() {
-  var eID = document.getElementById("colors");
-  var colorVal = eID.options[eID.selectedIndex].value;
-  var colortxt = eID.options[eID.selectedIndex].text;
-  document.getElementById('colorDiv').style.background=colortxt;
-  }
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    hover                                   */
+/* -------------------------------------------------------------------------- */
+//className, way to add a specific class name to an element
+
+function setNewImage()
+{
+  document.getElementById("img1").src ="images/shop2.jpg";
+
+}
+
+function setOldImage()
+{
+  document.getElementById("img1").src ="images/shopping.jpg";
+}
+
+//modelpopup
+
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
