@@ -1,0 +1,108 @@
+.upper{
+    height: 550px;
+    width: auto;
+    background-image: url(../images/p2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.top{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.top h1{
+    font-size: 250%;
+    padding-top: 40px;
+    color: lightseagreen;
+}
+
+.top h3{
+    font-size: 150%;
+    color: darkred;
+    padding-top: 18px;
+    padding-left: 85px;
+}
+
+.tags{
+    padding-top: 220px;
+    overflow-x: hidden;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    width: 150px;
+    height: 100px;
+    border: 5px solid lightseagreen;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+.boxtext{
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tags a:hover, a:focus{
+    color: lightseagreen;
+}
+
+.middle{
+    color: grey;
+    font-size: 170%;
+    font-weight: bold;
+    margin: 50px 70px;
+}   
+
+.bottom section{
+    border:  2px solid lightseagreen;
+    box-shadow: 10px 10px  30px lightseagreen;
+    color: darkred;
+    width:   500px;  
+    margin: 30px;
+    padding: 15px;
+    font-size: 120%;
+   
+}
+
+.bottom{
+    margin-left: 120px;
+    overflow-x: hidden;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure img{
+   height: 400px;
+   width: 510px;
+}
+
+figure{
+    width: 550px;
+    height: 585px;
+    border:  2px solid lightseagreen;
+    box-shadow: 10px 10px  30px lightseagreen;
+    color: darkred;
+    padding: 15px 15px;
+    font-size: 120%;   
+}
+
+figcaption h3{
+    font-weight: bold;
+}
+
+.bottom-last{
+    margin-left: 50px;
+    overflow-x: hidden;    
+    display: flex;
+    flex-wrap: wrap;
+}
+

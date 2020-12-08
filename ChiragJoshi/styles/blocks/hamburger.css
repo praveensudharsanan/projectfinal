@@ -1,0 +1,28 @@
+.hamburger {
+    display: none;
+}
+
+.menu__input {
+    display: none;
+}
+
+.no-overlap, .no-overlap::after, .no-overlap::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #9E0000;
+    border-radius: 10px;
+ 
+}
+
+.no-overlap::after {
+    content: "";
+    top: 7px;
+}
+
+.no-overlap::before {
+    content: "";
+    top: -7px;
+}
