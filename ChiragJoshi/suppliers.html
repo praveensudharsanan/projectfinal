@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head tag start-->
+    <head>
+        <title>
+            Suppliers
+        </title>
+    
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="we are working to reduce impact of our product" />
+        <meta name="keywords" content="sustainable climate recycle plastic water" />
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/suppliers.css">
+        <!--<script src="./javascript/suppliers.js"></script>-->
+        
+    </head>
+<!--head tag end-->
+
+<body>
+
+<!--header tag start-->
+        <header>
+            <div class="header--about">
+                <div class="container header--container">
+                <a href="" class="logo">
+                    <img src="./images/content/logo.png" alt="" class="logo__img">
+                </a>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="./welcome.html" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">The brand</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Portfolio</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Shop</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="socials socials__header">
+                    <ul class="socials__list">
+                        <li class="socials__item socials__item--icon--fb">
+                          <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item--icon--ins">
+                          <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item--icon--in">
+                          <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item--icon--tw">
+                          <a href="" class="socials__link"></a>
+                        </li>
+                      </ul>
+                </div>
+                <div class="hamburger">
+                    <input id="menu__toggle" type="checkbox" class="menu__input">
+                    <label for="menu__toggle" id="menu__btn">
+                        <span class="no-overlap"></span>
+                    </label>
+                </div>
+            </div>
+            </div>
+        </header>
+<!--header tag end-->
+
+<!--main tag start-->
+        <main>
+
+            <div class="display-container">
+                <div class="display-container mySlides">
+                    <div class="imgslider">
+                        <img src="images/s9.jpg">
+                    <div class="text">
+                        <h1>SUPPLIERS</h1>
+                        <h3>
+                            We work with our suppliers, workers, trade unions and international bodies 
+                            with the aim of developing a supply chain that respects and promotes human 
+                            rights, contributing to the United Nations Sustainable Development Goals.
+                        </h3>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="display-container mySlides">
+                    <div class="imgslider">
+                        <img src="images/s3.jpg">
+                  <div class="text">
+                        <h2>54% OF OUR PRODUCTION FACTORIES ARE LOCATED IN SPAIN, PORTUGAL, TURKEY AND MOROCCO,
+                            IN CLOSE PROXIMITY TO OUR MAIN MARKETS.
+                        </h2>
+                  </div>
+                  </div>
+                </div>
+                
+                <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+                
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+                </script>
+                
+
+        <div class="upper-sec">
+           <section class="sec-1">
+               <div class="text-1">
+                   <h2>Covid-19</h2>
+                   <p>
+                    COMMITTED TO SUPPORTING ALL OUR WORKERS, AND TO WORKING WITH OUR SUPPLIERS
+                     TO MINIMIZE THE IMPACTS OF COVID-19. WE’RE ALSO WORKING CLOSELY WITH SUPPLIERS 
+                     TO ENSURE THEY ARE FOLLOWING OFFICIAL GUIDANCE TO PROTECT THE HEALTH OF WORKERS 
+                     IN FACTORIES DURING THE PANDEMIC.
+                   </p>
+               </div>
+               <div class="img-sec-1">
+                   <img src="images/s1.jpg" alt="img1">
+               </div>
+           </section>
+
+           <section class="sec-2">
+            <div class="text-2">
+                <h2>WE HAVE IMPLEMENTED IMPLEMENTED A SYSTEM THAT ALLOWS US TO KNOW WHERE AND HOW OUR 
+                    GARMENTS ARE HANDLED.
+                </h2>
+                <p>
+                    TO GUARANTEE THAT WORKING CONDITIONS, PRODUCT SAFETY LEVELS AND ENVIRONMENTAL PRODUCTION
+                     STANDARDS ARE RESPECTED THROUGHOUT THE ENTIRE SUPPLY CHAIN, WE HAVE IMPLEMENTED A SYSTEM 
+                     THAT ALLOWS US TO KNOW WHERE AND HOW OUR GARMENTS ARE MADE. THANKS TO THIS TRACEABILITY 
+                     PROGRAMME AND CONTINUOUS COLLABORATION WITH OUR SUPPLIERS, WE WORK TO ENSURE THAT WE ONLY 
+                     COLLABORATE WITH SUPPLIERS WHO COMPLY WITH OUR CODE OF CONDUCT.
+                </p>
+            </div>
+            <div class="img-sec-2">
+                <img src="images/s2.jpg" alt="img2">
+            </div>
+            </section>
+        </div>
+
+        <div class="middle-sec">
+            <h1 class="middle-sec-text">
+                WE WORK WITH MORE THAN 1,900 SUPPLIERS IN OVER 8,000 FACTORIES.
+            </h1>
+           <ul class="middle-sec-1">
+               <li class="middle-sec-data">
+                   <h3 class="text">RAW MATERIAL</h3>
+                   <h1 class="number">1895</h1>
+               </li>
+                <li class="middle-sec-data">
+                    <h3 class="text">CUT</h3>
+                    <h1 class="number">166</h1>
+                </li>
+                <li class="middle-sec-data">
+                    <h3 class="text">MANUFACTURE</h3>
+                    <h1 class="number">4701</h1>
+                </li>
+                <li class="middle-sec-data">
+                    <h3 class="text">DYEING AND WASHING</h3>
+                    <h1 class="number">374</h1>
+                </li>
+                <li class="middle-sec-data">
+                    <h3 class="text">PRINTING</h3>
+                    <h1 class="number">388</h1>
+                </li>
+                <li class="middle-sec-data">
+                    <h3 class="text">FINISH</h3>
+                    <h1 class="number">325</h1>
+                </li>
+           </ul>
+        </div>
+
+        <div class="bottom-sec">
+            <figure>
+                <img src="images/C1.jpg" alt="img">
+                <figcaption>
+                    <h3>WE PROMOTE THE CREATION OF COLLABORATIVE SPACES</h3>
+                    <p>
+                        OUR AIM IS TO EMPOWER WORKERS AND RESPOND TO THEIR NEEDS IN AN EFFORT 
+                        TO CULTIVATE SUSTAINABLE PRODUCTION ENVIRONMENTS WHERE HUMAN RIGHTS ARE 
+                        RESPECTED AND PROMOTED, CONTRIBUTING TO THE SUSTAINABLE DEVELOPMENT GOALS
+                        SET BY THE UNITED NATIONS.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/C2.jpg" alt="img">
+                <figcaption>
+                    <h3>Products</h3>
+                    <p>
+                        WE CONDUCT ON-SITE ASSESSMENTS OF OUR SUPPLIERS TO ENSURE COMPLIANCE WITH OUR CODE OF CONDUCT.
+                        AS PART OF THESE ASSESSMENTS, WE CONDUCT DIFFERENT TYPES OF AUDITS, WHICH FOCUS ON SPECIFIC AREAS OF IMPROVEMENT SUCH AS STRUCTURAL TECHNICAL ASSESSMENTS 
+                        OR THE HEALTH AND SAFETY CONDITIONS OF WORKERS.
+                    </p>
+                </figcaption>
+            </figure>
+
+            
+            <figure>
+                <img src="images/C3.jpg" alt="img">
+                <figcaption>
+                    <h3>WE ARE WORKING TO MAKE OUR PRODUCTION CHAIN MORE SUSTAINABLE OVER TIME</h3>
+                    <p>
+                        TO THIS END, WE CREATE LOCAL WORKPLACES (CLUSTERS) IN WHICH WORKERS, ENTREPRENEURS,
+                         NGOS, TRADE UNIONS, GOVERNMENTS AND COMMUNITIES CAN COOPERATE AND CONVERSE.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/C4.jpg" alt="img">
+                <figcaption>
+                    <h3>WE DEVELOPE CORRECTIVE ACTION AND TRAINING PLANS WITH THE SUPPLIER</h3>
+                    <p>
+                        THESE ACTION PLANS SET OUT THE MEASURES TO CORRECT AND IMPROVE SITUATIONS WHERE THERE 
+                        MAY BE A BREACH OF THE CODE OF CONDUCT. WE WORK COLLABORATIVELY TO ACHIEVE THE GREATEST BENEFITS FOR WORKERS.
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+        </main>
+<!--main tag start-->
+
+<!--footer tag start-->
+    <div class="footer">
+        <div class="container">
+            <ul class="footer__cols">
+                <li class="footer__col footer__col--one">
+                    <a href="" class="logo">
+                        <img src="./images/content/logo.png" alt="" class="logo__img">
+                    </a>
+                    <div class="footer__text">
+                        <p>The world saw the emergence of new trends and new fabrics in the clothing industry. Very few brands got famous all over the world and are still amongst the global best sellers.</p>
+                    </div>
+                </li>
+                <li class="footer__col">
+                    <div class="footer__col--title">Recent Posts</div>
+                    <ul class="footer__posts">
+                        <li class="footer__post">
+                            <div class="footer__post--title">Paris Fashion Week</div>
+                            <div class="footer__post--date">20 January 2019</div>
+                        </li>
+                        <li class="footer__post">
+                            <div class="footer__post--title">About Our Fashion App</div>
+                            <div class="footer__post--date">20 January 2019</div>
+                        </li>
+                        <li class="footer__post">
+                            <div class="footer__post--title">Simple Blog Post</div>
+                            <div class="footer__post--date">20 January 2019</div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__col footer__col--three">
+                    <div class="footer__col--title">Usefull Links</div>
+                    <ul class="footer__links">
+                        <li class="footer__item--link">
+                            <a href="" class="footer__link">Testimonials</a>
+                        </li>
+                        <li class="footer__item--link">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item--link">
+                            <a href="" class="footer__link">Jobs</a>
+                        </li>
+                        <li class="footer__item--link">
+                            <a href="" class="footer__link">Reviews</a>
+                        </li>
+                        <li class="footer__item--link">
+                            <a href="" class="footer__link">Marketing</a>
+                        </li>
+                        <li class="footer__item--link">
+                            <a href="" class="footer__link">Subscribe</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__col footer__col--four">
+                    <div class="footer__col--title">Contact</div>
+                    <address class="footer__address">
+                        <ul class="address__list">
+                            <li class="address__item">
+                                <div class="address__item--title">Address:</div>
+                                <div class="address__item--info">Main Str, no 23, New York</div>
+                            </li>
+                            <li class="address__item">
+                                <div class="address__item--title">Phone:</div>
+                                <div class="address__item--info">+546 990221 123</div>
+                            </li>
+                            <li class="address__item">
+                                <div class="address__item--title">Mail:</div>
+                                <div class="address__item--info">model@contact.com</div>
+                            </li>
+                        </ul>
+                    </address>
+                    <div class="socials socials__footer">
+                        <ul class="socials__list">
+                            <li class="socials__item socials__item--icon--fb">
+                              <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--ins">
+                              <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--in">
+                              <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--tw">
+                              <a href="" class="socials__link"></a>
+                            </li>
+                          </ul>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+    </div>
+</div>
+<!--footer tag end-->
+</body>
+</html>
