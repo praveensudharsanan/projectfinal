@@ -1,4 +1,4 @@
-   // accordian scripts 
+// accordian scripts
    var acc = document.getElementsByClassName("accordion");
    var i;
 
@@ -43,6 +43,7 @@
       document.querySelector(".preloader").style.display = "none";
      }, 2000);
    }
+   
 
 /* -------------------------------------------------------------------------- */
 /*                                   slider                                   */
@@ -106,32 +107,31 @@ function openCity(evt, cityName) {
 }
 
 /* -------------------------------------------------------------------------- */
-/*                                 modelpopup                                 */
+/*                               form validation                              */
 /* -------------------------------------------------------------------------- */
 
-
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+function validateForm() {
+  var x = document.forms["myForm"]["name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
   }
+
+  var y = document.forms["myForm"]["email"].value;
+  if (y == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                  dropdown                                  */
+/* -------------------------------------------------------------------------- */
+
+function changeColor() {
+  var eID = document.getElementById("colors");
+  var colorVal = eID.options[eID.selectedIndex].value;
+  var colortxt = eID.options[eID.selectedIndex].text;
+  document.getElementById('colorDiv').style.background=colortxt;
+  }
