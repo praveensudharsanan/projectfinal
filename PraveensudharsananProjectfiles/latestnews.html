@@ -214,40 +214,82 @@
             <p>
               Upstairs, 347 Queen St W 2nd floor, Toronto, ON M5V 2A4, Canada
             </p>
+
+            
           </div>
           <div class="card">
 
             <h3>Popular Posts</h3>
             <div class="row_grid">
-              <div class="column_grid">
-                <div class=pop_content>
+              <section>
+                <div class="card">
+                  <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'toprated')"> TOP RATED</button>
+                    <button class="tablinks" onclick="openCity(event, 'upcoming')"> UP COMING</button>
+                  </div>
 
-                  <img class="pop_img" src="images/pop1.jpg" alt="post1">
-                  <p>
-                    25 Best Clothing Materials All the Time
-                  </p>
-                </div>
-                <div class=pop_content>
-                  <img class="pop_img" src="images/pop2.jpg" alt="post2">
-                  <p>
-                    Wrangler new trending fashions
-                  </p>
-                </div>
-                <div class=pop_content>
-                  <img class="pop_img" src="images/pop3.jpg" alt="post3">
-                  <p>
-                    Levis Casuals the best fashion brand
-                  </p>
-                </div>
-                <div class=pop_content>
-                  <img class="pop_img" src="images/pop4.jpg" alt="post4">
-                  <p>
-                    25 Best Clothing Materials All the Time
-                  </p>
-                </div>
+                  <div id="toprated" class="tabcontent">
+                    <div class="column_grid">
+                      <h3>TOPRATED</h3>
+                      <div class=pop_content>
+                        <img class="pop_img" src="images/top1.PNG" alt="post1">
+                        <p>
+                          Modern T-shirt
+                        </p>
+                      </div>
+                      <div class=pop_content>
+                        <img class="pop_img" src="images/top2.PNG" alt="post2">
+                        <p>
+                          Women Dress
+                        </p>
+                      </div>
+                      <div class=pop_content>
+                        <img class="pop_img" src="images/top3.PNG" alt="post3">
+                        <p>
+                          Women Cotton Top
+                        </p>
+                      </div>
+                      <div class=pop_content>
+                        <img class="pop_img" src="images/top4.PNG" alt="post4">
+                        <p>
+                          Summer Dress
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div id="upcoming" class="tabcontent">
+                    <div class="column_grid">
+                      <h3>upcoming</h3>
+                      <div class=pop_content>
 
-              </div>
+                        <img class="pop_img" src="images/pop1.jpg" alt="post1">
+                        <p>
+                          25 Best Clothing Materials All the Time
+                        </p>
+                      </div>
+                      <div class=pop_content>
+                        <img class="pop_img" src="images/pop2.jpg" alt="post2">
+                        <p>
+                          Wrangler new trending fashions
+                        </p>
+                      </div>
+                      <div class=pop_content>
+                        <img class="pop_img" src="images/pop3.jpg" alt="post3">
+                        <p>
+                          Levis Casuals the best fashion brand
+                        </p>
+                      </div>
+                      <div class=pop_content>
+                        <img class="pop_img" src="images/pop4.jpg" alt="post4">
+                        <p>
+                          25 Best Clothing Materials All the Time
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
             </div>
 
@@ -277,9 +319,7 @@
             </div>
 
           </section>
-
         </div>
-
       </div>
     </div>
 
@@ -427,11 +467,23 @@
             </div>
           </div>
         </div>
+
       </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-      <a href="customer-review.html" class="next">Next Page &raquo;</a>
+      <div class="button-block container">
+        <div class="prev-button">
+          <a href="latestnews.html" class="green-button">&laquo; Previous Page</a>
+        </div>
+        <div class="next-button">
+          <a href="reward.html" class="green-button">Next Page &raquo;</a>
+        </div>
+      </div>
+
+
     </section>
     <!-- end more news widget  -->
+
+
 
   </main>
   <!-- end manin content tag  -->
