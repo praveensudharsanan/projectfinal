@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/join.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
 </head>
 <!--head tag end-->
 
@@ -30,19 +31,19 @@
                 <nav class="header__menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="./welcome.html" class="menu__link">Home</a>
+                            <a href="../MikhailPak/welcome.html" class="menu__link">Home</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">The brand</a>
+                            <a href="../MikhailPak/about.html" class="menu__link">The brand</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Portfolio</a>
+                            <a href="../MikhailPak/team.html" class="menu__link">Portfolio</a>
                         </li>
                         <li class="menu__item">
                             <a href="" class="menu__link">Shop</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Blog</a>
+                            <a href="../PraveensudharsananProjectfiles/latestnews.html" class="menu__link">Blog</a>
                         </li>
                         <li class="menu__item">
                             <a href="" class="menu__link">Contact</a>
@@ -89,17 +90,17 @@
 					<input type="radio" name="sections" id="option1" checked>
 					<label for="option1" class="icon-left-pvt"><span class="fa fa-user-circle" aria-hidden="true"></span>Login</label>
 					<article>
-						<form action="#" method="post">
+						<form action="./join.html">
 							<h3 class="legend">Login Here</h3>
 							<div class="input">
 								<span class="fa fa-envelope-o" aria-hidden="true"></span>
-								<input type="email" placeholder="Email" name="email" required />
+								<input id="email1" type="email" placeholder="Email" name="email" autocomplete="email" required />
 							</div>
 							<div class="input">
 								<span class="fa fa-key" aria-hidden="true"></span>
-								<input type="password" placeholder="Password" name="password" required />
+								<input id="password1" type="password" placeholder="Password" name="password" autocomplete="current-password" required />
 							</div>
-							<button type="submit" class="btn submit">Login</button>
+							<button type="submit" class="btn submit" onclick="getinfo()">Login</button>
 							<a href="#" class="bottom-text-ls">Forgot Password?</a>
 						</form>
 					</article>
@@ -108,19 +109,19 @@
 					<input type="radio" name="sections" id="option2">
 					<label for="option2" class="icon-left-pvt"><span class="fa fa-pencil-square" aria-hidden="true"></span>Register</label>
 					<article>
-						<form action="#" method="post">
+						<form>
 							<h3 class="legend">Register Here</h3>
 							<div class="input">
 								<span class="fa fa-user-o" aria-hidden="true"></span>
-								<input type="text" placeholder="Username" name="name" required />
+								<input type="text" placeholder="Username" name="name" autocomplete="username" required />
 							</div>
 							<div class="input">
 								<span class="fa fa-key" aria-hidden="true"></span>
-								<input type="password" placeholder="Password" name="password" required />
+								<input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
 							</div>
 							<div class="input">
 								<span class="fa fa-key" aria-hidden="true"></span>
-								<input type="password" placeholder="Confirm Password" name="password" required />
+								<input type="password" placeholder="Confirm Password" name="password" autocomplete="new-password" required />
 							</div>
 							<button type="submit" class="btn submit">Register</button>
 						</form>
@@ -130,7 +131,7 @@
 					<input type="radio" name="sections" id="option3">
 					<label for="option3" class="icon-left-pvt"><span class="fa fa-lock" aria-hidden="true"></span>Forgot Password?</label>
 					<article>
-						<form action="#" method="post">
+						<form>
 							<h3 class="legend last">Reset Password</h3>
 							<p class="para-style">Enter your email address below and we'll send you an email with instructions.</p>
 							<p class="para-style-2"><strong>Need Help?</strong> Learn more about how to <a href="#">retrieve an existing
@@ -145,9 +146,46 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-		</div>
-		
-	</div>
+        </div> 
+        
+    </div>
+    
+    <div class="form1">
+        <h1>JOIN OUR COMMUNITY THREAD</h1>
+        <input type="text" id="name" placeholder="Name"><br><br>
+        <textarea rows="3" cols="30" id="body" placeholder="Type Your Comment here"></textarea><br><br>
+        <input type="button" id="addcoment" value="Comment">
+    </div>
+
+    <div id="container">
+        
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./javascript/join.js"></script>
+
+    <!--aerrows start-->
+    <button id="btntotop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <button id="btntonext">
+        <a href="./sustainability.html"><i class="material-icons">arrow_forward_ios</i></a>
+    </button>
+
+    <script>
+        let btntotop = document.querySelector("#btntotop");
+
+        btntotop.addEventListener("click", function () {
+            window.scrollTo({
+                left: 0,
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+    <!--aerrows end-->
+    
 </main>
 
 <!--footer tag start-->

@@ -12,6 +12,7 @@ body {
     background-size: cover;
     -webkit-background-size: cover;
     min-height: 100vh;
+    margin-bottom: 20px;
 }
 
 .main-bg h1 {
@@ -135,7 +136,6 @@ p.para-style-2 a {
     border: 1px solid #eee;
     background: #eee;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -189,6 +189,90 @@ a.bottom-text-ls {
     letter-spacing: 1px;
     text-align: center;
     margin-top: 3.2em;
+}
+
+#comentBox{
+    color: darkred;
+    padding: 1%;
+    width: 70%;
+    border: 1px solid darkred;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    background: lightseagreen;
+    box-shadow: 10px 10px 10px darkred;
+   
+}
+
+.clear{
+    clear: both;
+}
+
+.form1{
+    color: darkred;
+    background: url(../images/s10.jpg) no-repeat center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}  
+
+.form1 h1{
+    padding-bottom: 20px;
+
+}
+
+.form1 input, .form1 textarea{
+   
+    padding-top: 5px;
+    width: 300px;
+    background: #eee;
+}
+
+.form1 input[type="button"]{
+    font-weight: bold;
+    font-size: 150%;
+    color: darkred;
+    background-color: lightseagreen;
+}
+
+
+#btntotop{
+    position: fixed;
+    right: 70px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: darkred;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: lightseagreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#btntotop:active{
+    background: lightcoral;
+}
+
+#btntonext{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: darkred;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: lightseagreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#btntotopnext:active{
+    background: lightcoral;
 }
 
 @media(max-width: 1080px) {

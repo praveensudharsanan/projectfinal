@@ -13,6 +13,7 @@
         <meta name="keywords" content="sustainable climate recycle plastic water" />
         <link rel="stylesheet" href="./styles/main.css">
         <link rel="stylesheet" href="./styles/suppliers.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--<script src="./javascript/suppliers.js"></script>-->
         
     </head>
@@ -30,19 +31,19 @@
                 <nav class="header__menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="./welcome.html" class="menu__link">Home</a>
+                            <a href="../MikhailPak/welcome.html" class="menu__link">Home</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">The brand</a>
+                            <a href="../MikhailPak/about.html" class="menu__link">The brand</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Portfolio</a>
+                            <a href="../MikhailPak/team.html" class="menu__link">Portfolio</a>
                         </li>
                         <li class="menu__item">
                             <a href="" class="menu__link">Shop</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Blog</a>
+                            <a href="../PraveensudharsananProjectfiles/latestnews.html" class="menu__link">Blog</a>
                         </li>
                         <li class="menu__item">
                             <a href="" class="menu__link">Contact</a>
@@ -247,6 +248,30 @@
                 </figcaption>
             </figure>
         </div>
+
+         <!--aerrows start-->
+    <button id="btntotop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <button id="btntonext">
+        <a href="./join.html"><i class="material-icons">arrow_forward_ios</i></a>
+    </button>
+
+    <script>
+        let btntotop = document.querySelector("#btntotop");
+
+        btntotop.addEventListener("click", function () {
+            window.scrollTo({
+                left: 0,
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+    <!--aerrows end-->
+
+
         </main>
 <!--main tag start-->
 
