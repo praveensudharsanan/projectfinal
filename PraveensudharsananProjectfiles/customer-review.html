@@ -43,7 +43,8 @@
                     <a href="latestnews.html" class="menu__link">Blog</a>
                   </li>
                   <li class="menu__item">
-                    <a href="/final-project-fantasticfour/TaylarOatsProjectFeature1/Page2Main.html" class="menu__link">Contact</a>
+                    <a href="/final-project-fantasticfour/TaylarOatsProjectFeature1/Page2Main.html"
+                      class="menu__link">Contact</a>
                   </li>
                 </ul>
               </nav>
@@ -175,7 +176,7 @@
               </div>
             </div>
             <div class="review-item">
-              <figure>
+              <figure id="main">
                 <img src="images/test8.png" alt="">
               </figure>
               <div class="review-content">
@@ -199,14 +200,14 @@
         <div class="rightcolumn">
           <div class="card">
             <h3>Submit Review</h3>
-            <form action="#">
+            <form name="myForm" action="#" onsubmit="return validateForm()">
               <div class="form-group">
                 <label for="name"> Name: </label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name" >
               </div>
               <div class="form-group">
                 <label for="email"> Email: </label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" >
               </div>
               <div class="form-group">
                 <label for="occupation"> Occupation: </label>
@@ -216,11 +217,11 @@
                 <label for="review"> Review: </label>
                 <textarea name="review" id="review" cols="30" rows="5"></textarea>
               </div>
-
+  
               <div class="form-group">
                 <button class="btn btn-green" type="submit"> Submit Review</button>
               </div>
-
+              
 
 
             </form>
@@ -244,7 +245,7 @@
           <h2 class="featured-section"> Featured News</h2>
           <div class="featured-news-main">
             <figure>
-              <img src="images/shopping.jpg" alt="">
+              <img src="images/shopping.jpg" id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" alt="">
             </figure>
             <div class="featured-news-item">
               <h2 class="featured-title"> End of sales season? Retailers see washout as consumers stay away from
@@ -382,7 +383,14 @@
           </div>
         </div>
       </div>
-      <a href="reward.html" class="next">Next Page &raquo;</a>
+      <div class="button-block container">
+        <div class="prev-button">          
+          <a href="reward.html" class="green-button">&laquo; Previous Page</a>
+        </div>
+        <div class="next-button">          
+          <a href="latestnews.html" class="green-button">Next Page &raquo;</a>
+        </div>
+      </div>
     </section>
     <!-- end more news widget  -->
 
@@ -436,16 +444,16 @@
           <div class="footer__col--title">Useful Links</div>
           <ul class="footer__links">
             <li class="footer__item--link">
-              <a href="" class="footer__link">Testimonials</a>
+              <a href="/final-project-fantasticfour/MikhailPak/team.html" class="footer__link">Testimonials</a>
             </li>
             <li class="footer__item--link">
-              <a href="" class="footer__link">About Us</a>
+              <a href="/final-project-fantasticfour/MikhailPak/about.html" class="footer__link">About Us</a>
             </li>
             <li class="footer__item--link">
               <a href="" class="footer__link">Jobs</a>
             </li>
             <li class="footer__item--link">
-              <a href="" class="footer__link">Reviews</a>
+              <a href="customer-review.html" class="footer__link">Reviews</a>
             </li>
             <li class="footer__item--link">
               <a href="" class="footer__link">Marketing</a>
@@ -479,24 +487,11 @@
   </footer>
   <!-- end footer section  -->
 
-  <script>
-    // accordian sctipts
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
-  </script>
+  <script src="fuctionalities.js"></script>
 
 </body>
+<div class="preloader"> <img class="preloader-icon"
+    src="/final-project-fantasticfour/PraveensudharsananProjectfiles/images/logo.png" alt="My Site Preloader"> </div>
+
 
 </html>

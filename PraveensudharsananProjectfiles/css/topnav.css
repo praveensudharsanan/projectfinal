@@ -72,7 +72,7 @@
     transform: translate(-50%, -50%);
     width: 32px;
     height: 32px;
-    background: url(/group-project-task-list-3-fantastic-four/PraveensudharsananProjectfiles/images/icons/css_sprites.png ) -10px -10px;
+    background: url(../images/icons/css_sprites.png ) -10px -10px;
 }
 
 .socials__item--icon--ins .socials__link::after {
@@ -84,7 +84,7 @@
     transform: translate(-50%, -50%);
     width: 32px;
     height: 32px;
-    background: url(/group-project-task-list-3-fantastic-four/PraveensudharsananProjectfiles/images/icons/css_sprites.png  ) -62px -10px;
+    background: url(../images/icons/css_sprites.png  ) -62px -10px;
 }
 
 .socials__item--icon--in .socials__link::after {
@@ -96,7 +96,7 @@
     transform: translate(-50%, -50%);
     width: 32px;
     height: 32px;
-    background: url(/group-project-task-list-3-fantastic-four/PraveensudharsananProjectfiles/images/icons/css_sprites.png ) -114px -10px;
+    background: url(../images/icons/css_sprites.png ) -114px -10px;
 }
 
 .socials__item--icon--tw .socials__link::after {
@@ -108,7 +108,7 @@
     transform: translate(-50%, -50%);
     width: 32px;
     height: 32px;
-    background: url(/group-project-task-list-3-fantastic-four/PraveensudharsananProjectfiles/images/icons/css_sprites.png ) -166px -10px;
+    background: url(../images/icons/css_sprites.png ) -166px -10px;
 }
 
 
